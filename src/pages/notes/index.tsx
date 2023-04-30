@@ -19,7 +19,15 @@ const Todos: NextPage = () => {
 							className="card bg-base-100 shadow-xl image-full h-80"
 						>
 							<figure>
-								<img src={n.image} alt="Shoes" className="w-full" />
+								<img
+									src={
+										n.image
+											? n.image
+											: "https://th.bing.com/th/id/OIP.0kicUmErvaSI7_gLM6ZmagHaHc?pid=ImgDet&rs=1"
+									}
+									alt="Card Image"
+									className="w-full"
+								/>
 							</figure>
 							<div className="card-body">
 								<h2 className="card-title">{n.title}</h2>
