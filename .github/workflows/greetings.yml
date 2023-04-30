@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Welcome to Lootils! Thank you for opening an issue. We'll get back to you as soon as we can."
+        pr-message: "Welcome to Lootils! Thank you for opening a pull request. We'll review it as soon as we can."
