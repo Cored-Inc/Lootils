@@ -1,0 +1,18 @@
+[Type]: [Short Description]
+
+[Long Description]
+
+[Issue #: [Insert issue number if applicable]]
+
+---
+
+# Commit Types
+
+- `feat`: A new feature or enhancement
+- `fix`: A bug fix or resolution to an issue
+- `docs`: Changes to documentation or comments
+- `style`: Changes to code style, formatting, or whitespace
+- `refactor`: Code refactoring or restructuring
+- `chore`: Maintenance or configuration changes
+- `perf`: Performance improvements or optimizations
+- `revert`: Revert a previous commit

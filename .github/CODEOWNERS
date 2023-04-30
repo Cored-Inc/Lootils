@@ -1,0 +1,12 @@
+# This file defines the code owners for the Lootils project.
+
+# Lead Maintainer
+*       @FSCYT
+
+# Main Components
+/src/*  @Cored-Inc
+
+# Other Files
+.github/*   @Cored-Inc
+LICENSE     @Cored-Inc
+README.md   @Cored-Inc
